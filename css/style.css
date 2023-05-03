@@ -1,0 +1,418 @@
+@charset "utf-8";
+
+/* body */
+.inner {
+    width: 1440px;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* header */
+header {
+    background-image: url(../images/visual02.jpg);
+    background-repeat: no-repeat;
+}
+
+header .header-container {
+    width: 100%;
+    position: absolute;
+    height: 120px;
+    top: 0px;
+    left: 0px;
+}
+
+div.header-top-wrap {
+    width: 100%;
+    height: 60px;
+}
+
+h1.logo {
+    width: 200px;
+    height: 34px;
+    font-size: 16px;
+    top: 0px;
+    left: 0px;
+    padding-top: 12px;
+    position: absolute;
+}
+
+h1.logo > a {
+    color: #fff;
+}
+
+nav.gnb-wrap {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+}
+
+ul.gnb {
+    width: 100%;
+    height: 60px;
+    padding-left: 250px;
+    display: inline-block;
+}
+
+ul.gnb li {
+    display: inline-block;
+    height: 100%;
+}
+
+ul.gnb li a {
+    padding: 0px 30px;
+    height: 100%;
+    line-height: 60px;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+
+ul.gnb li a.border:before {
+    padding: 0px;
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 17px;
+    background-color: #e4e8eb;
+    margin-right: 58px;
+}
+
+ul.header-top-menu {
+    position: absolute;
+    line-height: 60px;
+    right: 0px;
+}
+
+ul.header-top-menu li {
+    float: left;
+}
+
+ul.header-top-menu li a {
+    padding: 0px 12px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/* main */
+main.content-container {
+    width: 100%;
+    height: 100%;
+}
+
+section.visual-wrap {
+    width: 100%;
+    height: 680px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+}
+
+section .visual-text {
+    font-weight: bold;
+    font-size: 70px;
+    color: #fff;
+    line-height: 100px;
+    padding-top: 120px;
+    display: block;
+}
+
+section .more {
+    padding-top: 30px;
+}
+
+section .more a {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* content */
+.program h2 {
+    color: #fff;
+    font-size: 28px;
+    line-height: 40px;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+.program .sub-title a {
+    color: #fff;
+    right: 0px;
+}
+
+.program .all {
+    display: inline-block;
+    border:  solid 1px #fff;
+    border-radius: 30px;
+    position: absolute;
+    padding: 16px 30px;
+    right: 0;
+    top: 30px;
+}
+
+.program {
+    background-color: #151515;
+    padding: 87px 0px;
+}
+
+.program .content01 {
+    float: left;
+    padding-right: 40px;
+}
+
+.program .info-box {
+    padding-top: 25px;
+}
+
+.program .title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.program p {
+    padding-top: 22px;
+    font-size: 15px;
+    color: #bbb;
+}
+
+.program_02 h2 {
+    color: #000;
+    font-size: 28px;
+    line-height: 40px;
+    padding-bottom: 32px;
+}
+
+.program_02 {
+    background-color: #f5f5f5;
+    padding: 87px 0px;
+}
+
+.program_02 .content03 {
+    float: left;
+    padding-right: 40px;
+}
+
+.program_02 .info-box {
+    padding-top: 25px;
+}
+
+.program_02 .title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.program_02 p {
+    padding-top: 22px;
+    font-size: 15px;
+}
+
+
+/* center */
+.center {
+    padding: 87px 0px 150px 0px;
+}
+
+.center h2 {
+    color: #000;
+    font-size: 28px;
+    line-height: 40px;
+    padding-bottom: 32px;
+}
+
+.center p {
+    padding-bottom: 50px;
+}
+
+.center .center-pr {
+    display: inline-block;
+    border:  solid 1px #000;
+    border-radius: 30px;
+    position: absolute;
+    padding: 16px 30px;
+    right: 0;
+    top: 70px;
+}
+
+.center .content03 li {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 167px;
+    padding-top: 22px;
+}
+
+.center .content03 li:nth-of-type(4) {
+    margin-right: 0;
+}
+
+.center .content03 li a {
+    color: #737373;
+}
+
+.center .content03 li a:hover {
+    color: #000;
+}
+
+.center .content03 li:hover {
+    border-bottom: solid 3px #f25130;
+}
+
+
+/* notice */
+.notice {
+    background-color: #f5f5f5;
+    padding: 87px 0px;
+    left: 0;
+}
+
+.notice-wrap {
+    background-color: #f5f5f5;
+}
+
+.notice .noti {
+    float: left;
+}
+
+.notice h3 {
+    font-size: 20px;
+    color: #000;
+}
+
+.notice .l-notice li {
+    padding: 30px 0px 14px;
+}
+
+.notice .l-notice .date {
+    font-size: 14px;
+}
+
+.notice .l-notice li {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* event */
+
+.notice .e-logo {
+    font-size: 20px;
+    color: #000;
+    padding-bottom: 22px;
+}
+.event01 {
+    float: left;
+}
+.event02 {
+    float: left;
+}
+.event03 {
+    float: left;
+}
+
+.event01 .img-wrap {
+    float: left;
+    width: 330px;
+    height: 220px;
+    margin-right: 30px;
+    padding-bottom: 12px;
+}
+
+.notice .noti {
+    padding-right: 60px;
+}
+.event01 .img-wrap img {
+    width: 100%;
+}
+.event02 .img-wrap {
+    float: left;
+    width: 330px;
+    height: 220px;
+    margin-right: 30px;
+    padding-bottom: 12px;
+}
+
+.event02 .img-wrap img {
+    width: 100%;
+}
+.event03 .img-wrap {
+    float: left;
+    width: 330px;
+    height: 220px;
+    padding-bottom: 12px;
+}
+
+.event03 .img-wrap img {
+    width: 100%;
+}
+
+.event01 .info-box p {
+    padding-top: 10px;
+}
+.event02 .info-box p {
+    padding-top: 10px;
+}
+.event03 .info-box p {
+    padding-top: 10px;
+}
+
+
+
+/* footer */
+
+.footer {
+    padding: 60px 0px;
+    background-color: #000;
+}
+
+.footer .f-menu {
+    float: left;
+}
+
+.footer .f-menu a {
+    float: left;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.footer .f-menu {
+    width: 100%;
+    height: 60px;
+}
+
+.footer .f-info2 {
+    padding: 30px 0px;
+}
+
+.footer .f-info1 span {
+    color: #fff;
+}
+.footer .f-info2 span {
+    color: #fff;
+}
+.footer .f-info3 span {
+    color: #fff;
+}
+
+.footer p {
+    color: #fff;
+    display: inline-block;
+}
